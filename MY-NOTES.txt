@@ -1,0 +1,5 @@
+Resources:
+- https://www.youtube.com/watch?v=3ax9TW2c2bY&feature=youtu.be
+- https://github.com/Ihatetomatoes/react-image-slideshow
+
+

@@ -1,0 +1,68 @@
+section {
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* #endregion */
+/* #region Card */
+/* Card */
+.card {
+  border: 3px #f3f3f3 solid;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s linear;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  padding: 10px;
+  max-width: 220px;
+  text-align: left;
+  margin: 0 auto;
+}
+.card:hover {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+}
+.card img {
+  max-width: calc(100%);
+  margin: 0 auto;
+  display: block;
+}
+.card .index {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  line-height: 20px;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  padding: 0 10px;
+}
+.card .price {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.card .details {
+  position: relative;
+}
+
+/* #endregion */
+/* #region cards slider */
+
+.cards-slider-wrapper .card {
+  flex: 1;
+  min-width: 200px;
+  opacity: 0.7;
+  transform: scale(0.8);
+  box-shadow: none;
+  background-color: white;
+  border-color: white;
+  transition: opacity 300ms linear, border-color 300ms linear,
+    background-color 300ms linear,
+    transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.cards-slider-wrapper .card .details {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
